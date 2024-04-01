@@ -1,55 +1,115 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import React, { useState } from "react";
-import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import {  AiOutlineMenu } from "react-icons/ai";
+import Logo from "../../../public/logo.png";
+import {
+  Sheet,
+  SheetContent,
+  SheetHeader,
+  SheetTitle,
+  SheetTrigger,
+} from "./ui/sheet";
 
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
-
-  const handleNav = () => {
-    setNav(!nav);
-  };
-
   return (
-    <div className="text-white bg-[#00194d] w-full fixed z-50 shadow-2xl">
-      <div className="flex justify-between items-center ml-[4rem] mr-[4rem] p-4">
-      <h1 className="w-full text-3xl font-bold text-[#00df9a] cursor-pointer">
-        Napkin
-      </h1>
-      <ul className="hidden md:flex lg:flex flex-row items-center justify-center gap-2">
-        <Link href="/">
-          <li className="p-4 cursor-pointer w-[7rem] active:text-[#00df9a] hover:text-[#00df9a] font-medium">Home</li>
-        </Link>
+    <div className="text-white bg-[#08142c] w-full fixed z-50 shadow-2xl">
+      <div className="flex flex-row justify-between items-center ml-[1rem] mr-[1rem] lg:ml-[4rem] lg:mr-[4rem]">
+        <div>
+          <Link href="/" className="w-full text-3xl font-bold cursor-pointer">
+            <Image
+              className="w-[6rem] h-[6rem]"
+              src={Logo}
+              alt="Company-logo"
+            />
+          </Link>
+        </div>
+        <ul className="hidden md:flex lg:flex flex-row items-center justify-center gap-1">
+          <Link href="/">
+            <li className="p-2 cursor-pointer w-[5rem] font-medium">Home</li>
+          </Link>
 
-        <Link href="/aboutus">
-          <li className="p-4 cursor-pointer w-[7rem] active:text-[#00df9a] hover:text-[#00df9a] font-medium">About Us</li>
-        </Link>
+          <Link href="/services">
+            <li className="p-2 cursor-pointer w-[5rem]  font-medium">
+              Services
+            </li>
+          </Link>
 
-        <Link href="/ourteam">
-          <li className="p-4 cursor-pointer w-[7rem] active:text-[#00df9a] hover:text-[#00df9a] font-medium">Our Team</li>
-        </Link>
-        <Link href="/contact">
-          <li className="p-4 cursor-pointer w-[7rem] active:text-[#00df9a] hover:text-[#00df9a] font-medium">Contact</li>
-        </Link>
-      </ul>
+          <Link href="/ourwork">
+            <li className="p-2 cursor-pointer w-[6rem]  font-medium">
+              Our Works
+            </li>
+          </Link>
+
+          <Link href="/aboutus">
+            <li className="p-2 cursor-pointer w-[5rem]  font-medium">
+              About Us
+            </li>
+          </Link>
+
+          <Link href="/careers">
+            <li className="p-2 cursor-pointer w-[5rem]  font-medium">
+              Careers
+            </li>
+          </Link>
+          <Link href="/contact">
+            <li className="p-2 cursor-pointer w-[5rem]  font-medium">
+              Contact
+            </li>
+          </Link>
+        </ul>
+        <div className="w-[10rem] h-[35px] rounded-full text-center p-2 bg-white">
+          <p className="text-[#08142c] font-bold text-sm">mail@gmail.com</p>
+        </div>
+        <div className="block lg:hidden md:hidden">
+          <Sheet>
+            <SheetTrigger><AiOutlineMenu className="text-xl" /></SheetTrigger>
+            <SheetContent>
+              <SheetHeader>
+                <SheetTitle>
+                  <ul className=" flex flex-col items-center justify-center gap-5 w-full mt-[5rem] text-[25px] text-center">
+                    <Link href="/">
+                      <li className="p-2 cursor-pointer w-[15rem] font-medium">
+                        Home
+                      </li>
+                    </Link>
+
+                    <Link href="/services">
+                      <li className="p-2 cursor-pointer w-[15rem]  font-medium">
+                        Services
+                      </li>
+                    </Link>
+
+                    <Link href="/ourwork">
+                      <li className="p-2 cursor-pointer w-[15rem]  font-medium">
+                        Our Works
+                      </li>
+                    </Link>
+
+                    <Link href="/aboutus">
+                      <li className="p-2 cursor-pointer w-[15rem]  font-medium">
+                        About Us
+                      </li>
+                    </Link>
+
+                    <Link href="/careers">
+                      <li className="p-2 cursor-pointer w-[15rem]  font-medium">
+                        Careers
+                      </li>
+                    </Link>
+                    <Link href="/contact">
+                      <li className="p-2 cursor-pointer w-[15rem]  font-medium">
+                        Contact
+                      </li>
+                    </Link>
+                  </ul>
+                </SheetTitle>
+              </SheetHeader>
+            </SheetContent>
+          </Sheet>
+        </div>
       </div>
-      <div onClick={handleNav} className="block md:hidden">
-        {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
-      </div>
-      <ul
-        className={
-          nav
-            ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500"
-            : "ease-in-out duration-500 fixed left-[-100%]"
-        }
-      >
-        <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">Napkin</h1>
-        <li className="p-4 border-b border-gray-600">Home</li>
-        <li className="p-4 border-b border-gray-600">About Us</li>
-        <li className="p-4 border-b border-gray-600">Our Team</li>
-        <li className="p-4 border-b border-gray-600">Contact</li>
-        {/* <li className="p-4">Contact</li> */}
-      </ul>
     </div>
   );
 };
