@@ -1,21 +1,21 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Toppage from './Toppage'
-import Providing from './Services'
+import Services from './Services'
 import Ourpresence from '../components/Ourpresence'
 import Strength from './Strength'
-import Clients from './Products'
 import Footer from '../components/Footer'
+import Workingprocess from './Workingprocess'
 
 const page = () => {
   return (
     <div className=''>
         <Navbar />
         <Toppage />
-        <Providing />
+        <Services />
         <Ourpresence />
+        <Workingprocess />
         <Strength />
-        <Clients />
         <Footer />
     </div>
   )

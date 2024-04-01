@@ -12,7 +12,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper/modules";
 
-import "./Providing.css";
+import "./Services.css";
 
 const Providing = () => {
   return (
