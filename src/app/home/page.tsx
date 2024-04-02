@@ -2,10 +2,10 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Toppage from './Toppage'
 import Services from './Services'
-import Ourpresence from '../components/Ourpresence'
-import Strength from './Strength'
+import Principle from './Principle'
 import Footer from '../components/Footer'
 import Workingprocess from './Workingprocess'
+
 
 const page = () => {
   return (
@@ -13,9 +13,8 @@ const page = () => {
         <Navbar />
         <Toppage />
         <Services />
-        <Ourpresence />
+        <Principle />
         <Workingprocess />
-        <Strength />
         <Footer />
     </div>
   )
