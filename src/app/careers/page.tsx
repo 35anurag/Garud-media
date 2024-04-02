@@ -1,16 +1,16 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import ServiceType from './ServiceType'
 import Footer from '../components/Footer'
+import Vacancy from './Vacancy'
 
-const Services = () => {
+const page = () => {
   return (
     <div>
       <Navbar />
-      <ServiceType />
+      <Vacancy />
       <Footer />
     </div>
   )
 }
 
-export default Services
+export default page

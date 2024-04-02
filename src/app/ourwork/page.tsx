@@ -1,15 +1,16 @@
 import React from 'react'
-import Team from './Team'
+// import Team from './Team'
 import Navbar from '../components/Navbar'
-import TeamDetail from './TeamDetail'
+// import TeamDetail from './TeamDetail'
 import Footer from '../components/Footer'
+import Projects from './Projects'
+
 
 const page = () => {
   return (
     <div>
       <Navbar />
-      <Team />
-      <TeamDetail />
+      <Projects />
       <Footer />
     </div>
   )

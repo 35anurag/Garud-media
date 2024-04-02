@@ -1,17 +1,13 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import Toppage from './Toppage'
-import Features from './Features'
-import Ourpresence from '../home/Principle'
 import Footer from '../components/Footer'
+import Team from './Team'
 
 const page = () => {
   return (
     <div>
       <Navbar />
-      <Toppage />
-      <Features />
-      <Ourpresence />
+      <Team />
       <Footer />
     </div>
   )
