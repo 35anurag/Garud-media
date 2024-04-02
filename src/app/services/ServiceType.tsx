@@ -24,7 +24,7 @@ const ServiceType = () => {
               <p className="text-sm lg:text-[18px] font-medium text-[#01248c]">Development</p>
               <h1 className="text-[20px] lg:text-[25px] font-bold">Web development</h1>
               <p className="text-xs lg:text-[14px] lg:max-w-[40rem]">
-                In today's digital era, websites play a crucial role, serving as
+                In todays digital era, websites play a crucial role, serving as
                 hubs for information and business operations. At Garud Media, we
                 offer a wide range of web solutions, including static and
                 dynamic websites, e-commerce platforms, news portals, content
