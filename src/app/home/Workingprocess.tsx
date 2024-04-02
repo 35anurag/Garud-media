@@ -1,6 +1,3 @@
-import React from "react";
-//Grid and Dot Background
-
 const Workingprocess = () => {
   return (
     <div className="min-h-screen py-2 pr-[2rem] pl-[2rem] flex flex-col items-center w-full lg:py-4 lg:pl-[5rem] lg:pr-[5rem]">
@@ -36,7 +33,7 @@ const Workingprocess = () => {
             </h2>
             <p className="text-[12px] lg:text-[14px]">
               Crafting and implementing the visual and functional aspects of the
-              website's "working process" field, ensuring it aligns with user
+              website&apos;s &quot;working process&quot; field, ensuring it aligns with user
               needs and business objectives.
             </p>
           </div>
@@ -44,7 +41,7 @@ const Workingprocess = () => {
           <div className="text-center max-w-[10rem] lg:max-w-[15rem] flex flex-col gap-2">
             <h2 className="text-[14px] lg:text-[16px] font-medium text-blue-500">Testing</h2>
             <p className="text-[12px] lg:text-[14px]">
-              Testing ensures the functionality and quality of the website's,
+              Testing ensures the functionality and quality of the website&apos;s,
               identifying and resolving any issues before deployment.
             </p>
           </div>
