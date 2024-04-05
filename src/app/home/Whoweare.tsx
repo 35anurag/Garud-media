@@ -25,7 +25,7 @@ const Whoweare = () => {
             <p className="text-[16px] lg:text-[15px] opacity-90 lg:max-w-[30rem] text-justify">
               GARUD MEDIA is known for its strong dedication to consumer-focused
               storytelling in media strategy consulting. We understand that
-              today consumers are not passive observers but active
+              today&apos;s consumers are not passive observers but active
               contributors to brand stories. Our strategy is based on the idea
               that understanding consumer responses is not about making
               assumptions, it is about adapting to changing consumer behavior and
