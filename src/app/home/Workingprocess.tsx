@@ -1,6 +1,6 @@
 const Workingprocess = () => {
   return (
-    <div className="min-h-screen py-2 pr-[2rem] pl-[2rem] flex flex-col items-center w-full lg:py-4 lg:pl-[5rem] lg:pr-[5rem]">
+    <div className="h-auto lg:min-h-screen py-2 pr-[2rem] pl-[2rem] flex flex-col items-center w-full lg:py-4 lg:pl-[5rem] lg:pr-[5rem]">
       <h1 className="mt-[2rem] text-center font-semibold text-[30px] lg:text-[35px]">
         Our Working Process
       </h1>

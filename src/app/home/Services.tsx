@@ -17,9 +17,9 @@ import "./Services.css";
 const Providing = () => {
   return (
     <section id="providing">
-      <div className="bg-[#00194d] h-screen text-white">
-        <div className="ml-[2rem] mr-[2rem] pt-[1rem] lg:ml-[5rem] lg:mr-[5rem] lg:pt-[2.5rem]">
-          <p className="text-center font-semibold text-[30px] lg:text-[35px]">Services</p>
+      <div className="bg-[#00194d]  lg:min-h-screen text-white">
+        <div className="mx-[2rem] py-[3rem] lg:mx-[5rem] lg:py-[2.5rem]">
+          <h1 className="text-center font-semibold text-[30px] lg:text-[35px]">Services</h1>
           <div className="pt-[3rem] lg:pt-[4rem] flex items-center justify-center">
             <Swiper
               slidesPerView={1}

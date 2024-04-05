@@ -29,7 +29,7 @@ const Toppage = () => {
     },
   ];
   return (
-    <div className="pt-[5rem] lg:pt-[3rem] min-h-screen bg-[#0c101a] overflow-hidden">
+    <div className="py-[5rem] lg:py-[3rem] h-auto lg:min-h-screen bg-[#0c101a] overflow-hidden">
       <div className="ml-[2rem] mr-[2rem] lg:ml-[5rem] lg:mr-[5rem] text-white relative">
         <div className="flex flex-col items-center justify-center w-full mt-[6rem] gap-5 lg:gap-7">
           <p className="font-bold text-[17px] text-blue-500/70 mb-[7px] lg:-mb-[16px]">
