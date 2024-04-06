@@ -27,9 +27,9 @@ const Whoweare = () => {
               storytelling in media strategy consulting. We understand that
               today&apos;s consumers are not passive observers but active
               contributors to brand stories. Our strategy is based on the idea
-              that understanding consumer responses is not about making
-              assumptions, it is about adapting to changing consumer behavior and
-              creating authentic strategies that connect deeply.
+              that understanding consumer responses isn&apos;t about making
+              assumptions, it&apos;s about adapting to changing consumer behavior
+              and creating authentic strategies that connect deeply.
             </p>
           </div>
         </div>
@@ -41,7 +41,7 @@ const Whoweare = () => {
           <div className="flex lg:flex-row flex-col justify-center gap-4 items-center">
             <Image className="w-[13rem] mb-[2rem] " src={Graph} alt="Graph" />
             <p className="text-[16px] lg:text-[15px] opacity-90 lg:max-w-[30rem] text-justify">
-              At GARUD MEDIA, we are committed to delivering real business
+              At GARUD MEDIA, we&apos;re committed to delivering real business
               results for your brand, focusing on measurable outcomes aligned
               with your goals. With a deep understanding of consumer channels,
               we optimize your presence to connect effectively. Our modern
@@ -87,8 +87,8 @@ const Whoweare = () => {
               stays relevant by immersing ourselves in emerging cultural trends.
               Our team of seasoned experts offers actionable ideas and a robust
               strategic roadmap for sustainable brand relevance and growth.
-              Whether you are a startup or an established brand, we are your
-              secret weapon for making a real impact in the market.
+              Whether you&apos;re a startup or an established brand, we&apos;re
+              your secret weapon for making a real impact in the market.
             </p>
           </div>
         </div>
