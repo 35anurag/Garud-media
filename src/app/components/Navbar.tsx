@@ -15,17 +15,12 @@ import {
 const Navbar = () => {
   return (
     <div className="text-white bg-[#08142c] w-full fixed z-50 shadow-2xl py-6">
-      <div className="flex flex-row justify-between items-center ml-[1rem] mr-[1rem] lg:ml-[4rem] lg:mr-[4rem]">
+      <div className="flex flex-row justify-between items-center mx-[1rem] lg:mx-[4rem] ">
         <div>
           <Link href="/" className="w-full text-3xl font-bold cursor-pointer">
-            {/* <Image
-              className="w-[6rem] h-[6rem]"
-              src={Logo}
-              alt="Company-logo"
-            /> */}
-            <h1 className="text-[35px]">
-              <span className="font-bold">G</span>
-              <span className="font-normal">M</span>
+            <h1 className="text-[30px]">
+              <span className="font-bold">GARUD</span>
+              <span className="font-normal">MEDIA</span>
             </h1>
           </Link>
         </div>
@@ -62,10 +57,11 @@ const Navbar = () => {
               Contact
             </li>
           </Link>
-        </ul>
-        <div className="w-[10rem] h-[35px] rounded-full text-center p-2 bg-white">
+          <div className="w-[10rem] h-[35px] rounded-full text-center p-2 bg-white">
           <p className="text-[#08142c] font-bold text-sm">mail@gmail.com</p>
         </div>
+        </ul>
+        
         <div className="block lg:hidden md:hidden">
           <Sheet>
             <SheetTrigger>
